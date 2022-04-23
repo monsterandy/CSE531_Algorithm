@@ -171,7 +171,7 @@ main() {
   run_public_test
 
   # printf "\n%s\n" "-------Testing private test cases-------"
-  # run_private_test
+  run_private_test
 
   if [ $fail_count -ne 0 ]
   then
