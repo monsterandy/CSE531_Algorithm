@@ -1,0 +1,51 @@
+\usepackage{fullpage}
+\usepackage{amsmath,amsfonts,amssymb, amsthm, graphicx}
+\usepackage{xcolor}
+
+\usepackage{enumitem}
+\setlist[1]{topsep=3pt,itemsep=3pt,parsep=3pt}
+
+\usepackage{algorithm}
+\usepackage{algpseudocode}
+\algtext*{EndWhile}
+\algtext*{EndIf}
+\algtext*{EndFor}
+
+\usepackage{url}
+\usepackage{xspace}
+
+\newcommand{\homework}[2]{
+	\thispagestyle{plain}
+	\setcounter{page}{1}
+	\noindent
+	\begin{center}
+		\framebox{
+			\vbox{\vspace{2mm}
+				\hbox to 6.28in { {CSE 431/531: Algorithm Analysis and Design
+						\hfill Fall 2021} }
+				\vspace{4mm}
+				\hbox to 6.28in { {\Large \bf \hfill Homework #1 \ifdefined\sol Solutions\fi \hfill} }
+				\vspace{2mm}
+				\hbox to 6.28in { {\it Instructor: Shi Li} \hfill {\bf Deadline: #2} }
+				\vspace{2mm}}
+		}\medskip
+		
+		Your Name: \underline{\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ } \qquad Your Student ID: \underline{\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ }
+	\end{center}
+}
+
+\DeclareMathOperator{\E}{\mathbb{E}}
+\DeclareMathOperator{\union}{\bigcup}
+
+\newcommand\floor[1]{\left\lfloor#1\right\rfloor}
+\newcommand\ceil[1]{\left\lceil#1\right\rceil}
+\newcommand\set[1]{\left\{#1\right\}}
+
+\newcommand{\R}{{\mathbb{R}}}
+\newcommand{\Z}{{\mathbb{Z}}}
+\newcommand{\C}{{\mathbb{C}}}
+\newcommand{\Q}{{\mathbb{Q}}}
+
+\renewcommand{\P}{{\textbf{P}}\xspace}
+\newcommand{\NP}{{\textbf{NP}}\xspace}
+\newcommand{\poly}{{\mathrm{poly}}}
